@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+
+int i,j,k,num=2,n=1;
+
+for (i=1; i<=6; i++){
+        for(k=6;k>=i;k--){
+        printf(" ");
+        }
+        for (j=1;j<=i;j++){
+            if(i%2==0||i==1){
+            if(num!=26){
+                printf("%d ",num);
+                num=num+2;}
+                n++;}
+        }
+        if(i%2==1)
+        printf("\n");
+}
+}
+
+
